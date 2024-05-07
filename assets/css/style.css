@@ -816,7 +816,9 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  
 }
+
 
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -999,6 +1001,11 @@ section .container {
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color:  #ff4d6d;
 }
+.portfolio-details .swiper-slide img {
+  max-width: 100%; /* Adjust this value to your desired width */
+  height: auto; /* Ensures aspect ratio is maintained */
+}
+
 
 /*--------------------------------------------------------------
 # Contact
